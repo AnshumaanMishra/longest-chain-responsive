@@ -1,0 +1,25 @@
+.box
+{
+   text-align: center;
+   margin: 10px 0px 10px 1px;
+   /* padding: 10px 10px 10px 10px; */
+   height: 50px;
+   width: var(--radius);
+   /*width: 1px;*/
+   /* background-color: lawngreen; */
+}
+
+.flex
+{
+    margin: 0;
+    /*border: 5px solid black;
+    padding: 50px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
